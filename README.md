@@ -42,7 +42,7 @@ This plugin is compatible with most modern versions of Maya.  Tested with Maya 2
 ### Exporting as a part of a script
 ```python
 import glTFExport   
-glTFExport.export(r"C:\Temp\test.glb", resource_format='bin', anim='keyed', vflip=True)
+glTFExport.export("C:\Temp\test.glb", resource_format='bin', anim='keyed', vflip=True)
 ```
 #### Export parameters
 
